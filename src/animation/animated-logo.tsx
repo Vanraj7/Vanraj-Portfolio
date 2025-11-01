@@ -18,7 +18,7 @@ export default function AnimatedLogo() {
       <motion.svg
         viewBox="0 0 450 450"
         xmlns="http://www.w3.org/2000/svg"
-        className="h-full w-full fill-accent stroke-accent rotate-180"
+        className="h-full w-full rotate-180 fill-accent stroke-accent"
       >
         <motion.path
           d="M321.955 420L179.465 127.143L224.998 36.1755L416.91 420H321.955ZM204.867 263.253L128.055 420H33.0897L158.769 168.608L204.867 263.253Z"

@@ -1,15 +1,5 @@
-import {
-  SiExpress,
-  SiSocketdotio,
-  SiPrisma,
-  SiNextdotjs,
-  SiFlask,
-} from "react-icons/si";
-import {
-  FramerMotionIcon,
-  ReactRouterDomIcon,
-  VitePwaIcon,
-} from "@/components/icons";
+import { SiExpress, SiNextdotjs, SiFlask } from "react-icons/si";
+import { ReactRouterDomIcon, VitePwaIcon } from "@/components/icons";
 import { type SkillsShowcaseProps } from "@/components/skills/skills-showcase";
 
 // Languages
