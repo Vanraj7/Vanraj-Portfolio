@@ -17,7 +17,7 @@ export default function ProjectShowcase({ projects }: ProjectShowcaseProps) {
         </h2>
 
         {/* Desktop & tablet: show cards grid */}
-        <div className="grid gap-6 py-14 sm:gap-8 sm:py-20 md:gap-10 lg:grid-cols-3">
+        <div className="hidden grid gap-6 py-14 sm:gap-8 sm:py-20 md:gap-10 lg:grid lg:grid-cols-3">
           {projects.map((card, idx) => (
             <ProjectCard
               key={idx}
@@ -37,7 +37,7 @@ export default function ProjectShowcase({ projects }: ProjectShowcaseProps) {
                   <span className="text-3xl font-semibold text-accent transition-colors duration-300 sm:text-4xl md:text-5xl">
                     {index + 1}.
                   </span>
-                  <span className="-underline-offset-1 text-3xl font-semibold text-accent underline transition-colors duration-300 sm:text-4xl md:text-5xl">
+                  <span className="-underline-offset-1 text-3xl font-semibold text-white underline transition-colors duration-300 sm:text-4xl md:text-5xl">
                     {proj.title}
                   </span>
                 </div>
