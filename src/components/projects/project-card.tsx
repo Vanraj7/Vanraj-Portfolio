@@ -27,7 +27,9 @@ export default function ProjectCard(props: ProjectCardProps) {
         {/* <span className="relative h-7 w-7 flex-shrink-0">
           <Image src={props.favicon} alt={`${props.name} logo`} fill />
         </span> */}
-  <div className="text-sm font-semibold text-foreground dark:text-white">{props.name}</div>
+        <div className="text-sm font-semibold text-foreground dark:text-white">
+          {props.name}
+        </div>
       </div>
       <div className="p-3 text-foreground sm:p-4">
         <div className="flex items-center gap-3">
