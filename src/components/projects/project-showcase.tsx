@@ -37,7 +37,7 @@ export default function ProjectShowcase({ projects }: ProjectShowcaseProps) {
                   <span className="text-3xl font-semibold text-accent transition-colors duration-300 sm:text-4xl md:text-5xl">
                     {index + 1}.
                   </span>
-                  <span className="-underline-offset-1 text-3xl font-semibold text-white underline transition-colors duration-300 sm:text-4xl md:text-5xl">
+                  <span className="-underline-offset-1 text-3xl font-semibold text-accent dark:text-white underline transition-colors duration-300 sm:text-4xl md:text-5xl">
                     {proj.title}
                   </span>
                 </div>
