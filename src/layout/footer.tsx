@@ -1,5 +1,5 @@
 import ContactButton from "@/components/contact-form/contact-button";
-import { GithubIcon, LinkedinIcon, TwitterIcon } from "@/components/icons";
+import { GithubIcon, LinkedinIcon, TwitterIcon} from "@/components/icons";
 import { siteMetadata } from "@/data/siteMetaData.mjs";
 
 export default function Footer() {
@@ -39,7 +39,7 @@ export default function Footer() {
             href={siteMetadata.twitter}
             target="_blank"
             className="h-6 w-6"
-            aria-label="link to Twitter"
+            aria-label="link to X (formerly Twitter)"
           >
             <TwitterIcon className="text-accent transition-colors duration-150 hover:text-accent-foreground" />
           </a>

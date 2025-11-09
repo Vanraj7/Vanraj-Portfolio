@@ -14,7 +14,7 @@ export const siteMetadata = {
   socialBanner: "/static/homepage.png",
   email: "jhalavanraj777@gmail.com",
   github: "https://github.com/Vanraj7",
-  twitter: "https://twitter.com/jhalavanraj777",
+  twitter: "https://twitter.com/JhalaVanraj",
   linkedin: "https://www.linkedin.com/in/vanraj-jhala",
   locale: "en-US",
   googleSiteVerification: "_YJlO90eSoye2AQOhbkRAzNbejzCGiTgAD4RNR3NtHc",
